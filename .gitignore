@@ -13,4 +13,4 @@
 .externalNativeBuild
 .cxx
 local.properties
-
+/app/src/main/java/edu/stanford/bpinasco/myapplication/API_KEY.kt

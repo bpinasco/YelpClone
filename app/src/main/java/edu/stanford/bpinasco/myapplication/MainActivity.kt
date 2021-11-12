@@ -14,7 +14,6 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 private const val BASE_URL = "https://api.yelp.com/v3/"
 private const val TAG = "MainActivity"
-private const val API_KEY = "UZW7YRXFso1j9TZfwK9VTGOY5UOty6TGnaOwAFqCXymkZCLqd4MhPo06CAS9evXR8ojPTpFYf3FjWSOFxQoB54ccFN0pkre-fObfhWNfgtKuxWqMhOZ--8qI4wmLYXYx"
 
 class MainActivity : AppCompatActivity() {
 
