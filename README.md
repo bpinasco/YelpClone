@@ -2,7 +2,7 @@
 
 ## *Bianca Pinasco*
 
-**Yelp clone** displays a list of search results from the Yelp API and displays the results in a scrollable list.
+**Yelp Clone** displays a list of search results from the Yelp API and displays the results in a scrollable list.
 
 Time spent: **4** hours spent in total
 
