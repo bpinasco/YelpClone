@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        supportActionBar?.title = "Avocado Toast in New York"
+        supportActionBar?.title = "Peruvian Food in San Francisco"
 
         rvRestaurants = findViewById(R.id.rvRestaurants)
 
@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
             Retrofit.Builder().baseUrl(BASE_URL).addConverterFactory(GsonConverterFactory.create()).build();
 
         val yelpService = retrofit.create(YelpService::class.java)
-        yelpService.searchRestaurants("Bearer $API_KEY","Avocado Toast","New York").enqueue(object: Callback<YelpSearchResult> {
+        yelpService.searchRestaurants("Bearer $API_KEY","Peruvian Food","San Francisco").enqueue(object: Callback<YelpSearchResult> {
             override fun onResponse(call: Call<YelpSearchResult>, response: Response<YelpSearchResult>) {
                 Log.i(TAG, "onResponse $response")
                 val body = response.body()
